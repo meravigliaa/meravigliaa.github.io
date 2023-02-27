@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>NewJeansShop</title>
+      <link rel="stylesheet" type="text/css" href="assets/css/global.css"></link>
+      <style>
+        h1 {
+          font-size: 65px;
+          font-weight: 250;
+          color: #284377;
+        }
+        h2 {
+          font-size: 25px;
+          padding-top: 10px;
+          color: black;
+          font-weight: 300;
+        }
+        h3 {
+          color: black;
+          font-size: 60px;
+          text-align: center;
+          padding-top: 20px;
+          font-weight: 300;
+        }
+
+        h4 {
+          color: black;
+          font-size: 20px;
+          font-weight: normal;
+          text-align: center;
+          padding-top: 20px;
+        }
+
+        h5 {
+          color: black;
+          font-size: 18px;
+          font-weight: 100;
+          text-align: left;
+          line-height: 30px;
+          padding-top: 15px;
+        }
+        
+
+        .bannerleft{
+            width: 45%;
+            padding-top: 50px;
+            float: left;
+        }
+        .bannerright{
+            width: 45%;
+            padding-top: 50px;
+            float: right;
+        }
+        
+        .right {
+          width: 33%;
+          padding-top: 50px;
+          float: right;
+        }
+        .left {
+            width: 33%;
+            padding-top: 50px;
+            float: left;
+        }
+        .center {
+            width: 33%;
+            padding-top: 50px;
+            float: left
+        }
+
+        .categories {
+            display: block;
+            width: 300px; 
+            border-radius: 150px; 
+            border: 1px solid #284377;
+            transition: .5s ease;
+            margin: auto;
+        }
+        .categories:hover{
+            transform: scale(1.05);
+        }
+
+        .product{
+        width: 90%;
+        height: 900px;
+        padding-top: 50px;
+        margin: auto;
+        }
+        .product .card {
+        display: block;
+        position: relative;
+        width: 31%;
+        height: 640px;
+        margin: auto 15px;
+        background-color: white;
+        float: left;
+        transition: .5s ease;
+        }
+        .product .card:hover{
+            transform: scale(1.05);
+        }
+
+    </style>
+    </head>
+    <body>
+        <nav>
+            <div class="navbar">
+                <div class="kiri">
+                    <img src="assets/img/logo.png" style="padding-left: 50px; width: 83px;">
+                </div>
+                <div class="kanan">
+                    <div class="main_container">
+                        <div class="menu" onclick="location.href='index.html'">HOME</div>
+                        <div class="menu" onclick="location.href='music.html'">MUSIC</div>
+                        <div class="menu" onclick="location.href='shop.html'">SHOP</div>
+                        <div class="menu" onclick="location.href='tour.html'">TOUR</div>
+                        <div class="menu" onclick="location.href='profile.html'">PROFILE</div>
+                      </div>
+                </div>
+            </div>
+        </nav>
+        
+        <section style="background-color: #9FB8D2; height: 600px; padding-top: 50px;"> 
+            <div class="bannerleft" style="margin-left: 100px;">
+                <h1 style="padding-top: 150px;"><b>NewJeans</b> Store</h1>
+                <h2>Get Your Newest Collections Here!</h2>
+            </div>       
+            <div class="bannerright">
+                 <img src="assets/img/banner_image.png" style="height: 550px; margin: 0 auto; margin-left: 50px;">
+            </div>
+        </section>
+ 
+
+        <section style="background-color: white; height: 650px; padding-top: 50px;"> 
+            <h3>Products Categories</h3>
+            <div class="left">
+                <img src="./assets/img/banner_album.jpg" class="categories">
+                <h4>Albums</h4>
+            </div>
+
+            <div class="center">
+                <img src="./assets/img/shirt 2.jpg" class="categories">
+                <h4>Shirts</h4>
+            </div>
+        
+            <div class="right">
+                <img src="./assets/img/message-card.webp" class="categories">
+                <h4>Collectibles</h4>
+            </div>
+        </section>
+
+
+        <section style="background-color: #e9eef5; height: 900px; padding-top: 50px;"> 
+            <h3>Featured Product</h3>
+            <div class="product">
+                <div class="card">
+                    <img src="./assets/img/newjeans-album.webp" style="width: 400px;margin: 0 auto;">
+                    <h5 style="text-align: right; padding-right: 25px;color: #59c24a;">$20.30</h5>
+                    <h2 style="padding-left: 25px;">NewJeans 1st EP</h2>
+                    <h5 style="padding-left: 25px;">
+                        Contains four tracks, including the three <br>singles "Attention", "Hype Boy" and "Cookie".
+                    </h5>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/img/newjeans_croptop.jpg" style="width: 400px;margin: 0 auto;">
+                    <h5 style="text-align: right; padding-right: 25px;color: #59c24a;">$32.50</h5>
+                    <h2 style="padding-left: 25px;">NEWJEANS Crop Tee</h2>
+                    <h5 style="padding-left: 25px;">
+                        Basic NewJeans Grey Crop Tee <br> Available Size (X)S,M,L
+                    </h5>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/img/message-card.webp" style="width: 400px;margin: 0 auto;">
+                    <h5 style="text-align: right; padding-right: 25px;color: #59c24a;">$12.80</h5>
+                    <h2 style="padding-left: 25px;">OMG 1st Single (Message Card)</h2>
+                    <h5 style="padding-left: 25px;">
+                        NewJeans 1ST Single 'OMG' <br> Message Card ver.
+                    </h5>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <p>More from NewJeans</p>
+            <div class="logo">
+            </div>
+            <div class="logo">
+            </div>
+            <div class="logo">
+                <img src= "assets/img/twitter.png" class="logofx">
+            </div>
+            <div class="logo">
+                <img src= "assets/img/insta.png" class="logofx">
+            </div>
+            <div class="logo">
+             <img src= "assets/img/tik tok.png" class="logofx">   
+            </div>
+            <div class="logo">
+                <img src= "assets/img/facebook.png" class="logofx">   
+            </div>
+        </section>
+    </body>
+</html>
